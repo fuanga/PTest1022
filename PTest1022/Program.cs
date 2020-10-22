@@ -21,9 +21,11 @@ namespace PTest1022 {
             //６以上…「６以上です」
 
             /*** ●●● ここへ解答を入力 ●●● ***/
+
+
+            outStr = (inputNum <= 5) ? "5以下です" : "6以上です";
+
             
-
-
 
 
             /*** ●●●●● ここまで ●●●●● ***/
@@ -41,7 +43,7 @@ namespace PTest1022 {
             /*** ●●● ここへ解答を入力 ●●● ***/
 
 
-
+            data = Exam_2_Stab() ?? -9999;
 
 
 
@@ -53,7 +55,7 @@ namespace PTest1022 {
         private int? Exam_2_Stab() {
             //▼▼▼▼▼　以下のコメントを切り替えて確認をする 
             //return null;
-            return 150;
+            return 200;
             //▲▲▲▲▲
         }
 
@@ -71,7 +73,7 @@ namespace PTest1022 {
             /*** ●●● ここへ解答を入力 ●●● ***/
 
 
-
+            title = book?.Title;
 
 
             /*** ●●●●● ここまで ●●●●● ***/
@@ -83,19 +85,22 @@ namespace PTest1022 {
         private void Exam_4() {
             Console.WriteLine($"\n〇問題４");
             var books = new Books().GetBooks();
-            int pageSum = 0;
+            //int pageSum = 0;
 
             //金額が1200円以上の書籍を抽出せよ
             //出力については「タイトル」と「金額」を出力すること
-            
+
             /*** ●●● ここへ解答を入力 ●●● ***/
 
 
+            
+         
+            
 
 
 
             /*** ●●●●● ここまで ●●●●● ***/
-            Console.WriteLine($"ページの合計は{ pageSum }ページです。");
+            //Console.WriteLine($"ページの合計は{ pageSum }ページです。");
         }
 
         //問題５
@@ -124,8 +129,8 @@ namespace PTest1022 {
             // 出力例）79 65 53 45 35 34 20 12
             /*** ●●● ここへ解答を入力 ●●● ***/
 
-
-
+        
+             
 
 
             /*** ●●●●● ここまで ●●●●● ***/
@@ -141,7 +146,7 @@ namespace PTest1022 {
 
 
 
-
+            avg = numbers.Average();
 
 
             /*** ●●●●● ここまで ●●●●● ***/
@@ -160,7 +165,7 @@ namespace PTest1022 {
             /*** ●●● ここへ解答を入力 ●●● ***/
 
 
-
+            
 
 
 
